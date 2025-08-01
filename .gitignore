@@ -4,3 +4,5 @@ __pycache__/
 env/
 .ipynb_checkpoints/
 keys.py
+*.dat
+.DS_Store
