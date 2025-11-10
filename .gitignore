@@ -6,3 +6,4 @@ env/
 keys.py
 *.dat
 .DS_Storedata/*.fil
+data/*.fil
