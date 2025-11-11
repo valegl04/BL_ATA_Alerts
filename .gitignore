@@ -7,3 +7,4 @@ keys.py
 *.dat
 .DS_Storedata/*.fil
 data/*.fil
+data/3I_Atlas_Example_Data.fil
