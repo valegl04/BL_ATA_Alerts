@@ -1,0 +1,1465 @@
+Testing turned on. This is where bad antennas would be removed.
+This is where the antennas would be reserved, the beamwidths would be defined, and the SETI nodes would be activated.
+Center frequencies set to 1336 MHz, 2008 MHz, 4536 MHz, and 8336 MHz for testing.
+==================== Acquiring source list ====================
+Local Sidereal Time at 2026-02-12 22:19 for longitude -121.47330000000005 deg:
+LST (hours): 23.7502
+LST (degrees): 356.25
+LST (HH:MM:SS): 23:45:01
+Columns of target list:
+['ID', 'Plaintext Name', 'Horizons Name', 'Simbad Name', 'Solar System Flag', 'RA (hours)', 'DEC', 'RA (deg)', 'RA (solsys)', 'DEC (solsys)']
+Beginning Horizons query process...
+This is designed to mass query Horizons and receive the current RA/DEC for targets.
+Observation location: {'lon': -121.4733, 'lat': 40.8177, 'elevation': 986}
+Observation start time: 2026-02-12 22:19
+Observation end time: 2026-02-13 04:19
+Time step: 6h
+Columns of target_df:
+['ID', 'Plaintext Name', 'Horizons Name', 'Simbad Name', 'Solar System Flag', 'RA (hours)', 'DEC', 'RA (deg)', 'RA (solsys)', 'DEC (solsys)']
+Processing target: 446 Aeternitas (A899 UB) | ID: A899 UB
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+A899 UB Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 51.76542 degrees and DEC: 25.41894 degrees.
+/mnt_home/vlopez/BL_ATA_Alerts/Blayne/Survey Code/survey_utils.py:157: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  results_df = pd.concat([results_df, pd.DataFrame({
+Processing target: 52 Europa (A858 CA) | ID: A858 CA
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+A858 CA Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 50.4325 degrees and DEC: 11.67628 degrees.
+Processing target: 624 Hektor (A907 CF) | ID: A907 CF
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+A907 CF Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 183.98416 degrees and DEC: -8.61106 degrees.
+Processing target: 434 Hungaria (A898 RB) | ID: A898 RB
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+A898 RB Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 344.48966 degrees and DEC: -6.11232 degrees.
+Processing target: 16 Psyche (A852 FA) | ID: A852 FA
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+A852 FA Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 69.90072 degrees and DEC: 18.93991 degrees.
+Processing target: 3628 Boznemcova (1979 WD) | ID: 1979 WD
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1979 WD Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 192.45509 degrees and DEC: -1.6345 degrees.
+Processing target: 420 Bertholda (A896 RC) | ID: A896 RC
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+A896 RC Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 168.71234 degrees and DEC: -4.90557 degrees.
+Processing target: 1862 Apollo (1932 HA) | ID: 1932 HA
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1932 HA Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 133.65642 degrees and DEC: 28.71048 degrees.
+Processing target: 349 Dembowska (A892 XB) | ID: A892 XB
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+A892 XB Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 294.9582 degrees and DEC: -27.6342 degrees.
+Processing target: 15 Eunomia (A851 OA) | ID: A851 OA
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+A851 OA Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 184.90235 degrees and DEC: -17.55366 degrees.
+Processing target: 233 Asterope (A883 JA) | ID: A883 JA
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+A883 JA Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 206.5556 degrees and DEC: -16.00954 degrees.
+Processing target: 4 Vesta (A807 FA) | ID: A807 FA
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+A807 FA Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 319.62214 degrees and DEC: -18.26107 degrees.
+Processing target: 90 Antiope (A866 TA) | ID: A866 TA
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+A866 TA Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 176.17067 degrees and DEC: 4.83205 degrees.
+Processing target: 243 Ida (A884 SB) | ID: A884 SB
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+A884 SB Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 87.76315 degrees and DEC: 24.35288 degrees.
+Processing target: 3200 Phaethon (1983 TB) | ID: 1983 TB
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1983 TB Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 25.00116 degrees and DEC: 21.9779 degrees.
+Processing target: 594913 'Aylo'chaxnim (2020 AV2) | ID: 2020 AV2
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+2020 AV2 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 336.38838 degrees and DEC: -11.96293 degrees.
+Processing target: 322756 (2001 CK32) | ID: 2001 CK32
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+2001 CK32 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 305.00977 degrees and DEC: -18.12647 degrees.
+Processing target: 163693 Atira (2003 CP20) | ID: 2003 CP20
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+2003 CP20 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 261.24782 degrees and DEC: 21.18132 degrees.
+Processing target: 3753 Cruithne (1986 TO) | ID: 1986 TO
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1986 TO Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 312.01102 degrees and DEC: -16.07158 degrees.
+Processing target: (1991 VG) | ID: 1991 VG
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1991 VG Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 342.72649 degrees and DEC: -8.13161 degrees.
+Processing target: 706765 (2010 TK7) | ID: 2010 TK7
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+2010 TK7 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 270.90521 degrees and DEC: 1.10269 degrees.
+Processing target: 469219 Kamo`oalewa (2016 HO3) | ID: 2016 HO3
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+2016 HO3 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 214.64029 degrees and DEC: 47.41677 degrees.
+Processing target: 4660 Nereus (1982 DB) | ID: 1982 DB
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1982 DB Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 272.11909 degrees and DEC: -24.50816 degrees.
+Processing target: 433 Eros (A898 PA) | ID: A898 PA
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+A898 PA Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 56.43564 degrees and DEC: 22.18846 degrees.
+Processing target: 5261 Eureka (1990 MB) | ID: 1990 MB
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1990 MB Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 277.6935 degrees and DEC: -22.17272 degrees.
+Processing target: 8 Flora (A847 UA) | ID: A847 UA
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+A847 UA Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 268.82948 degrees and DEC: -20.13157 degrees.
+Processing target: 25 Phocaea (A853 GB) | ID: A853 GB
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+A853 GB Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 56.88996 degrees and DEC: 3.09346 degrees.
+Processing target: 65 Cybele (A861 EB) | ID: A861 EB
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+A861 EB Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 181.05983 degrees and DEC: 0.91587 degrees.
+Processing target: 153 Hilda (A875 VC) | ID: A875 VC
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+A875 VC Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 28.80344 degrees and DEC: 12.45292 degrees.
+Processing target: 6P/d'Arrest (90000145) | ID: 90000145
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+90000145 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 163.73348 degrees and DEC: 14.95345 degrees.
+Processing target: 21P/Giacobini-Zinner (90000324) | ID: 90000324
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+90000324 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 114.20256 degrees and DEC: 21.37732 degrees.
+Processing target: 2688 Halley (1982 HG1) | ID: 1982 HG1
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1982 HG1 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 151.98054 degrees and DEC: 15.58343 degrees.
+Processing target: C/2014 S3 (90004289) | ID: 90004289
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+90004289 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 318.58087 degrees and DEC: -21.08901 degrees.
+Processing target: 5335 Damocles (1991 DA) | ID: 1991 DA
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1991 DA Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 324.1151 degrees and DEC: 17.9262 degrees.
+Processing target: 9134 Encke (4822 P-L) | ID: 4822 P-L
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+4822 P-L Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 51.18795 degrees and DEC: 15.99456 degrees.
+Processing target: 7968 Elst-Pizarro (1996 NU5) | ID: 1996 NU5
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1996 NU5 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 41.31621 degrees and DEC: 14.55573 degrees.
+Processing target: 9P/Tempel 1 (90000192) | ID: 90000192
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+90000192 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 86.09181 degrees and DEC: 29.61806 degrees.
+Processing target: 2060 Chiron (1977 UB) | ID: 1977 UB
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1977 UB Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 21.12679 degrees and DEC: 9.34575 degrees.
+Processing target: 153P/Ikeya-Zhang [2002] (74) - default | ID: 74
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+74 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 110.73859 degrees and DEC: 16.31976 degrees.
+Processing target: 24835 (1995 SM55) | ID: 1995 SM55
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1995 SM55 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 58.64623 degrees and DEC: 40.98863 degrees.
+Processing target: 15788 (1993 SB) | ID: 1993 SB
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1993 SB Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 80.80658 degrees and DEC: 25.14527 degrees.
+Processing target: 385185 (1993 RO) | ID: 1993 RO
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1993 RO Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 55.39213 degrees and DEC: 16.091 degrees.
+Processing target: 15760 Albion (1992 QB1) | ID: 1992 QB1
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1992 QB1 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 42.56772 degrees and DEC: 18.02409 degrees.
+Processing target: 79360 Sila-Nunam (1997 CS29) | ID: 1997 CS29
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1997 CS29 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 152.47417 degrees and DEC: 10.24249 degrees.
+Processing target: 687170 (2011 QF99) | ID: 2011 QF99
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+2011 QF99 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 92.68415 degrees and DEC: 14.42843 degrees.
+Processing target: 612243 (2001 QR322) | ID: 2001 QR322
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+2001 QR322 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 47.01263 degrees and DEC: 16.24798 degrees.
+Processing target: 523899 (1997 CV29) | ID: 1997 CV29
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1997 CV29 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 182.40856 degrees and DEC: 6.50702 degrees.
+Processing target: 20161 (1996 TR66) | ID: 1996 TR66
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1996 TR66 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 35.32166 degrees and DEC: 25.3981 degrees.
+Processing target: 91554 (1999 RZ215) | ID: 1999 RZ215
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1999 RZ215 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 8.33869 degrees and DEC: 20.13111 degrees.
+Processing target: 181902 (1999 RD215) | ID: 1999 RD215
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1999 RD215 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 48.45155 degrees and DEC: 8.54954 degrees.
+Processing target: 541132 Leleakuhonua (2015 TG387) | ID: 2015 TG387
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+2015 TG387 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 7.39502 degrees and DEC: 15.22984 degrees.
+Processing target: Phobos (401) | ID: 401
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+401 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 318.52122 degrees and DEC: -17.14713 degrees.
+Processing target: Amalthea (505) | ID: 505
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+505 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 107.21716 degrees and DEC: 22.81811 degrees.
+Processing target: Methone (506) | ID: 506
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+506 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 107.79814 degrees and DEC: 23.15416 degrees.
+Processing target: Himalia (506) | ID: 506
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+506 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 107.79814 degrees and DEC: 23.15416 degrees.
+Processing target: Phoebe (SIX) | ID: SIX
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+SIX Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 0.93528 degrees and DEC: -1.94336 degrees.
+Processing target: Helene (612) | ID: 612
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+612 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 0.41619 degrees and DEC: -2.16398 degrees.
+Processing target: Epimetheus (611) | ID: 611
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+611 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 0.41859 degrees and DEC: -2.165 degrees.
+Processing target: (2006 RH120) | ID: 2006 RH120
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+2006 RH120 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 250.48987 degrees and DEC: -21.67466 degrees.
+Processing target: Prometheus (616) | ID: 616
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+616 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 0.41045 degrees and DEC: -2.1641 degrees.
+Processing target: Hyperion (607) | ID: 607
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+607 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 0.41153 degrees and DEC: -2.16196 degrees.
+Processing target: Saturn (699) | ID: 699
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+699 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 0.41509 degrees and DEC: -2.16455 degrees.
+Processing target: Neptune (899) | ID: 899
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+899 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 0.64405 degrees and DEC: -1.14964 degrees.
+Processing target: EM-L5 | ID: EM-L5
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+EM-L5 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 206.67744 degrees and DEC: -16.07352 degrees.
+Processing target: C/2019 Q4 (90004555) | ID: 90004555
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+90004555 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 146.04976 degrees and DEC: 69.94369 degrees.
+Processing target: 'Oumuamua (A/2017 U1) | ID: A/2017 U1
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+A/2017 U1 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 358.1434 degrees and DEC: 23.66933 degrees.
+Processing target: Mercury (199) | ID: 199
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+199 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 341.44109 degrees and DEC: -8.26999 degrees.
+Processing target: Mars (499) | ID: 499
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+499 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 318.52031 degrees and DEC: -17.1476 degrees.
+Processing target: Venus (299) | ID: 299
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+299 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 335.26404 degrees and DEC: -11.85205 degrees.
+Processing target: 1 Ceres (A801 AA) | ID: A801 AA
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+A801 AA Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 19.77657 degrees and DEC: 1.33596 degrees.
+Processing target: 136199 Eris (2003 UB313) | ID: 2003 UB313
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+2003 UB313 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 26.38123 degrees and DEC: -0.32159 degrees.
+Processing target: 134340 Pluto (1930 BM) | ID: 1930 BM
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1930 BM Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 306.99238 degrees and DEC: -23.03873 degrees.
+Processing target: 90377 Sedna (2003 VB12) | ID: 2003 VB12
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+2003 VB12 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 60.7118 degrees and DEC: 8.61241 degrees.
+Processing target: 136472 Makemake (2005 FY9) | ID: 2005 FY9
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+2005 FY9 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 202.28917 degrees and DEC: 20.51338 degrees.
+Processing target: 136108 Haumea (2003 EL61) | ID: 2003 EL61
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+2003 EL61 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 221.17 degrees and DEC: 13.96695 degrees.
+Processing target: Moon (301) | ID: 301
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+301 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 270.15099 degrees and DEC: -28.92959 degrees.
+Processing target: Titan (606) | ID: 606
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+606 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 0.38253 degrees and DEC: -2.16073 degrees.
+Processing target: Triton (801) | ID: 801
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+801 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 0.64665 degrees and DEC: -1.14652 degrees.
+Processing target: Europa (502) | ID: 502
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+502 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 107.18489 degrees and DEC: 22.82165 degrees.
+Processing target: Callisto (JIV) | ID: JIV
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+JIV Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 107.18273 degrees and DEC: 22.81939 degrees.
+Processing target: Ganymede (JIII) | ID: JIII
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+JIII Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 107.12574 degrees and DEC: 22.82888 degrees.
+Processing target: Enceladus (602) | ID: 602
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+602 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 0.40677 degrees and DEC: -2.16409 degrees.
+Processing target: Io (501) | ID: 501
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+501 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 107.17943 degrees and DEC: 22.82394 degrees.
+Processing target: Jupiter (599) | ID: 599
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+599 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 107.20689 degrees and DEC: 22.81967 degrees.
+Processing target: Sun | ID: Sun
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+Sun Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 326.16458 degrees and DEC: -13.57206 degrees.
+Processing target: International Space Station  (-125544) | ID: -125544
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+-125544 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 197.43958 degrees and DEC: -9.32604 degrees.
+Processing target: Hubble Space Telescope (1990-037B) | ID: 1990-037B
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+1990-037B Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 138.03918 degrees and DEC: -40.15211 degrees.
+Processing target: Voyager 1 (-31) | ID: -31
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+-31 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 259.21818 degrees and DEC: 12.11948 degrees.
+Processing target: LCS-1 (-101361) | ID: -101361
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+-101361 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 291.77142 degrees and DEC: -60.28381 degrees.
+Processing target: Vanguard I | ID: Vanguard I
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+Error retrieving data for Vanguard I for error: Unknown target (Vanguard I). Maybe try different id_type?
+Processing target: 1963-014G | ID: 1963-014G
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+Error retrieving data for 1963-014G for error: Unknown target (1963-014G). Maybe try different id_type?
+Processing target: 1976-103G | ID: 1976-103G
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+Error retrieving data for 1976-103G for error: Unknown target (1976-103G). Maybe try different id_type?
+Processing target: SpaceX Roadster (-143205) | ID: -143205
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+-143205 Queried Horizons successfully at time 2026-02-12 22:19 with coordinates RA: 284.06318 degrees and DEC: -23.47766 degrees.
+Processing target: Solar antipoint | ID: Solar antipoint
+DEBUG: Query parameters - start: 2026-02-12 22:19, stop: 2026-02-13 04:19, step: 6h
+Error retrieving data for Solar antipoint for error: Unknown target (Solar antipoint). Maybe try different id_type?
+Processing target: EM-L5 | ID: EM-L5
+DEBUG: Query parameters - start: 2026-02-12 22:20, stop: 2026-02-13 04:19, step: 6h
+EM-L5 Queried Horizons successfully at time 2026-02-12 22:20 with coordinates RA: 206.68833 degrees and DEC: -16.07641 degrees.
+Processing target: EM-L4 | ID: EM-L4
+DEBUG: Query parameters - start: 2026-02-12 22:20, stop: 2026-02-13 04:19, step: 6h
+EM-L4 Queried Horizons successfully at time 2026-02-12 22:20 with coordinates RA: 332.87578 degrees and DEC: -12.65229 degrees.
+Processing target: 1173 Anchises (1930 UB) | ID: 1930 UB
+DEBUG: Query parameters - start: 2026-02-12 22:20, stop: 2026-02-13 04:19, step: 6h
+1930 UB Queried Horizons successfully at time 2026-02-12 22:20 with coordinates RA: 23.31721 degrees and DEC: 16.08887 degrees.
+Processing target: 55636 (2002 TX300) | ID: 2002 TX300
+DEBUG: Query parameters - start: 2026-02-12 22:20, stop: 2026-02-13 04:19, step: 6h
+2002 TX300 Queried Horizons successfully at time 2026-02-12 22:20 with coordinates RA: 29.42713 degrees and DEC: 39.10791 degrees.
+Processing target: (2019 LF6) | ID: 2019 LF6
+DEBUG: Query parameters - start: 2026-02-12 22:20, stop: 2026-02-13 04:19, step: 6h
+2019 LF6 Queried Horizons successfully at time 2026-02-12 22:20 with coordinates RA: 299.6851 degrees and DEC: -6.94316 degrees.
+Processing target: (2012 VP113) | ID: 2012 VP113
+DEBUG: Query parameters - start: 2026-02-12 22:20, stop: 2026-02-13 04:19, step: 6h
+2012 VP113 Queried Horizons successfully at time 2026-02-12 22:20 with coordinates RA: 56.87143 degrees and DEC: 5.5006 degrees.
+Processing target: Proteus (NVIII) | ID: NVIII
+DEBUG: Query parameters - start: 2026-02-12 22:20, stop: 2026-02-13 04:19, step: 6h
+NVIII Queried Horizons successfully at time 2026-02-12 22:20 with coordinates RA: 0.6441 degrees and DEC: -1.14895 degrees.
+Processing target: Neso (2002N4) | ID: 2002N4
+DEBUG: Query parameters - start: 2026-02-12 22:20, stop: 2026-02-13 04:19, step: 6h
+2002N4 Queried Horizons successfully at time 2026-02-12 22:20 with coordinates RA: 1.44934 degrees and DEC: -1.4787 degrees.
+Processing target: Metis (516) | ID: 516
+DEBUG: Query parameters - start: 2026-02-12 22:20, stop: 2026-02-13 04:19, step: 6h
+516 Queried Horizons successfully at time 2026-02-12 22:20 with coordinates RA: 107.21407 degrees and DEC: 22.81851 degrees.
+Processing target: Mimas (601) | ID: 601
+DEBUG: Query parameters - start: 2026-02-12 22:20, stop: 2026-02-13 04:19, step: 6h
+601 Queried Horizons successfully at time 2026-02-12 22:20 with coordinates RA: 0.41012 degrees and DEC: -2.16441 degrees.
+Processing target: Iapetus (SVIII) | ID: SVIII
+DEBUG: Query parameters - start: 2026-02-12 22:20, stop: 2026-02-13 04:19, step: 6h
+SVIII Queried Horizons successfully at time 2026-02-12 22:20 with coordinates RA: 0.31153 degrees and DEC: -2.19538 degrees.
+Processing target: Tethys (SIII) | ID: SIII
+DEBUG: Query parameters - start: 2026-02-12 22:20, stop: 2026-02-13 04:19, step: 6h
+SIII Queried Horizons successfully at time 2026-02-12 22:20 with coordinates RA: 0.41868 degrees and DEC: -2.16508 degrees.
+Processing target: Charon (901) | ID: 901
+DEBUG: Query parameters - start: 2026-02-12 22:20, stop: 2026-02-13 04:19, step: 6h
+901 Queried Horizons successfully at time 2026-02-12 22:20 with coordinates RA: 306.99251 degrees and DEC: -23.03857 degrees.
+Processing target: Miranda (705) | ID: 705
+DEBUG: Query parameters - start: 2026-02-12 22:20, stop: 2026-02-13 04:19, step: 6h
+705 Queried Horizons successfully at time 2026-02-12 22:20 with coordinates RA: 54.8854 degrees and DEC: 19.33166 degrees.
+Processing target: 5477 Holmes (1989 UH2) | ID: 1989 UH2
+DEBUG: Query parameters - start: 2026-02-12 22:20, stop: 2026-02-13 04:19, step: 6h
+1989 UH2 Queried Horizons successfully at time 2026-02-12 22:20 with coordinates RA: 278.78888 degrees and DEC: -31.21261 degrees.
+Processing target: Uranus (799) | ID: 799
+DEBUG: Query parameters - start: 2026-02-12 22:20, stop: 2026-02-13 04:19, step: 6h
+799 Queried Horizons successfully at time 2026-02-12 22:20 with coordinates RA: 54.88544 degrees and DEC: 19.33422 degrees.
+Processing target: 10537 (1991 RY16) | ID: 1991 RY16
+DEBUG: Query parameters - start: 2026-02-12 22:20, stop: 2026-02-13 04:19, step: 6h
+1991 RY16 Queried Horizons successfully at time 2026-02-12 22:20 with coordinates RA: 30.10485 degrees and DEC: 10.61013 degrees.
+Sorted by RA
+First 3 rows:
+      ID Plaintext Name    Horizons Name  RA (deg)      DEC  RA (hours) RA (solsys) DEC (solsys)  Solar System Flag
+546  547        Iapetus  Iapetus (SVIII)   0.31153 -2.19538    0.020769         NaN          NaN                1.0
+101  102          Titan      Titan (606)   0.38253 -2.16073    0.025502         NaN          NaN                1.0
+106  107      Enceladus  Enceladus (602)   0.40677 -2.16409    0.027118         NaN          NaN                1.0
+Saving rearranged table around LST: 23.750223765706952 hourangle
+Just acquired source list. The last LST reorder time set to 1770934806.9452603 (time.time() function)
+Time since last LST reorder: 0s | Time until next reorder: 3600s
+
+==================== Top of the loop ====================
+Current time = 2026-02-12 22:20 UTC (Or 2026-02-12 14:20 local time)
+Current target: 0 - NGC 7793
+
+Beginning queue check for target: NGC 7793
+Target NGC 7793 has not yet been observed.
+Target NGC 7793 is a Sidereal target. Using RA/DEC from CSV.
+Target NGC 7793 is out of altitude bounds (16.7 degrees). Skipping.
+Beginning queue check for target: [GPS]
+Target [GPS] has not yet been observed.
+Target [GPS] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [GPS]. Skipping.
+Beginning queue check for target: [ComSat]
+Target [ComSat] has not yet been observed.
+Target [ComSat] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [ComSat]. Skipping.
+Beginning queue check for target: [AmRadSat]
+Target [AmRadSat] has not yet been observed.
+Target [AmRadSat] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [AmRadSat]. Skipping.
+Beginning queue check for target: [EarthObsSat]
+Target [EarthObsSat] has not yet been observed.
+Target [EarthObsSat] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [EarthObsSat]. Skipping.
+Beginning queue check for target: [WeatherSat]
+Target [WeatherSat] has not yet been observed.
+Target [WeatherSat] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [WeatherSat]. Skipping.
+Beginning queue check for target: LightSail 2
+Target LightSail 2 has not yet been observed.
+Target LightSail 2 is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for LightSail 2. Skipping.
+Beginning queue check for target: Vanguard I
+Target Vanguard I has not yet been observed.
+Target Vanguard I is a Solar System target (Vanguard I). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for Vanguard I. Skipping.
+Beginning queue check for target: [Booster]
+Target [Booster] has not yet been observed.
+Target [Booster] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [Booster]. Skipping.
+Beginning queue check for target: 1963-014G
+Target 1963-014G has not yet been observed.
+Target 1963-014G is a Solar System target (1963-014G). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for 1963-014G. Skipping.
+Beginning queue check for target: 1976-103G
+Target 1976-103G has not yet been observed.
+Target 1976-103G is a Solar System target (1976-103G). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for 1976-103G. Skipping.
+Beginning queue check for target: Solar antipoint
+Target Solar antipoint has not yet been observed.
+Target Solar antipoint is a Solar System target (Solar antipoint). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for Solar antipoint. Skipping.
+Beginning queue check for target: Iapetus
+Target Iapetus has not yet been observed.
+Target Iapetus is a Solar System target (Iapetus (SVIII)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Iapetus: 35.62 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Iapetus: 89.07 degrees
+Target Iapetus added to queue (new push).
+Beginning queue check for target: Titan
+Target Titan has not yet been observed.
+Target Titan is a Solar System target (Titan (606)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Titan: 35.70 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Titan: 89.15 degrees
+Target Titan added to queue (new push).
+Beginning queue check for target: Enceladus
+Target Enceladus has not yet been observed.
+Target Enceladus is a Solar System target (Enceladus (602)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Enceladus: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Enceladus: 89.17 degrees
+Target Enceladus added to queue (new push).
+Reached queue length of 3. Proceeding with ODS push function.
+Pushing 3 queued target(s) to ODS...
+Queued targets are: ['Iapetus', 'Titan', 'Enceladus']
+Testing mode: would have pushed Iapetus at coords (0.31153 RA, -2.19538 Dec) to ODS from 2026-02-12T22:33:06.945330+00:00 to 2026-02-12T22:36:06.945330+00:00
+Pushed Iapetus to ODS queue
+Testing mode: would have pushed Titan at coords (0.38259 RA, -2.16069 Dec) to ODS from 2026-02-12T22:34:06.945330+00:00 to 2026-02-12T22:37:06.945330+00:00
+Pushed Titan to ODS queue
+Testing mode: would have pushed Enceladus at coords (0.40685 RA, -2.16406 Dec) to ODS from 2026-02-12T22:35:06.945330+00:00 to 2026-02-12T22:38:06.945330+00:00
+Pushed Enceladus to ODS queue
+Testing mode active, doing a shorter wait for the first ODS push.
+01:00 remaining00:59 remaining00:58 remaining00:57 remaining00:56 remaining00:55 remaining00:54 remaining00:53 remaining00:52 remaining00:51 remaining00:50 remaining00:49 remaining00:48 remaining00:47 remaining00:46 remaining00:45 remaining00:44 remaining00:43 remaining00:42 remaining00:41 remaining00:40 remaining00:39 remaining00:38 remaining00:37 remaining00:36 remaining00:35 remaining00:34 remaining00:33 remaining00:32 remaining00:31 remaining00:30 remaining00:29 remaining00:28 remaining00:27 remaining00:26 remaining00:25 remaining00:24 remaining00:23 remaining00:22 remaining00:21 remaining00:20 remaining00:19 remaining00:18 remaining00:17 remaining00:16 remaining00:15 remaining00:14 remaining00:13 remaining00:12 remaining00:11 remaining00:10 remaining00:09 remaining00:08 remaining00:07 remaining00:06 remaining00:05 remaining00:04 remaining00:03 remaining00:02 remaining00:01 remainingWaited 60 seconds
+All queued targets pushed to ODS. Beginning actual observations
+Target NGC 7793 is not a Solar System target. Using RA and DEC from CSV.
+Current Altitude: 16.671042050346227 degrees
+NGC 7793 is not within elevation bounds (16.671042050346227), so is being skipped.
+Time since last LST reorder: 62s | Time until next reorder: 3538s
+
+==================== Top of the loop ====================
+Current time = 2026-02-12 22:21 UTC (Or 2026-02-12 14:21 local time)
+Current target: 1 - [GPS]
+
+Beginning queue check for target: [GPS]
+Target [GPS] has not yet been observed.
+Target [GPS] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [GPS]. Skipping.
+Beginning queue check for target: [ComSat]
+Target [ComSat] has not yet been observed.
+Target [ComSat] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [ComSat]. Skipping.
+Beginning queue check for target: [AmRadSat]
+Target [AmRadSat] has not yet been observed.
+Target [AmRadSat] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [AmRadSat]. Skipping.
+Beginning queue check for target: [EarthObsSat]
+Target [EarthObsSat] has not yet been observed.
+Target [EarthObsSat] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [EarthObsSat]. Skipping.
+Beginning queue check for target: [WeatherSat]
+Target [WeatherSat] has not yet been observed.
+Target [WeatherSat] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [WeatherSat]. Skipping.
+Beginning queue check for target: LightSail 2
+Target LightSail 2 has not yet been observed.
+Target LightSail 2 is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for LightSail 2. Skipping.
+Beginning queue check for target: Vanguard I
+Target Vanguard I has not yet been observed.
+Target Vanguard I is a Solar System target (Vanguard I). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for Vanguard I. Skipping.
+Beginning queue check for target: [Booster]
+Target [Booster] has not yet been observed.
+Target [Booster] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [Booster]. Skipping.
+Beginning queue check for target: 1963-014G
+Target 1963-014G has not yet been observed.
+Target 1963-014G is a Solar System target (1963-014G). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for 1963-014G. Skipping.
+Beginning queue check for target: 1976-103G
+Target 1976-103G has not yet been observed.
+Target 1976-103G is a Solar System target (1976-103G). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for 1976-103G. Skipping.
+Beginning queue check for target: Solar antipoint
+Target Solar antipoint has not yet been observed.
+Target Solar antipoint is a Solar System target (Solar antipoint). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for Solar antipoint. Skipping.
+Beginning queue check for target: Iapetus
+Target Iapetus has not yet been observed.
+Target Iapetus is a Solar System target (Iapetus (SVIII)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Iapetus: 35.62 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Iapetus: 89.06 degrees
+Target Iapetus already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Titan
+Target Titan has not yet been observed.
+Target Titan is a Solar System target (Titan (606)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Titan: 35.70 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Titan: 89.14 degrees
+Target Titan already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Enceladus
+Target Enceladus has not yet been observed.
+Target Enceladus is a Solar System target (Enceladus (602)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Enceladus: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Enceladus: 89.16 degrees
+Target Enceladus already pushed earlier; skipping duplicate push.
+Reached queue length of 3. Proceeding with ODS push function.
+Queue fill incomplete: only 0/3 targets met criteria after scanning the remaining list.
+Target [GPS] is a Solar System target. Generating ephemeris files.
+Querying Horizons for target [GPS] (ID: 519) with name nan
+Generating ephemeris file for the ATA to use:
+Skipping target nan (ID: 519) because it is NaN.
+Error: Could not retrieve RA and DEC for [GPS] (ID: 519). Skipping this target.
+Time since last LST reorder: 63s | Time until next reorder: 3537s
+
+==================== Top of the loop ====================
+Current time = 2026-02-12 22:21 UTC (Or 2026-02-12 14:21 local time)
+Current target: 2 - [ComSat]
+
+Beginning queue check for target: [ComSat]
+Target [ComSat] has not yet been observed.
+Target [ComSat] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [ComSat]. Skipping.
+Beginning queue check for target: [AmRadSat]
+Target [AmRadSat] has not yet been observed.
+Target [AmRadSat] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [AmRadSat]. Skipping.
+Beginning queue check for target: [EarthObsSat]
+Target [EarthObsSat] has not yet been observed.
+Target [EarthObsSat] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [EarthObsSat]. Skipping.
+Beginning queue check for target: [WeatherSat]
+Target [WeatherSat] has not yet been observed.
+Target [WeatherSat] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [WeatherSat]. Skipping.
+Beginning queue check for target: LightSail 2
+Target LightSail 2 has not yet been observed.
+Target LightSail 2 is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for LightSail 2. Skipping.
+Beginning queue check for target: Vanguard I
+Target Vanguard I has not yet been observed.
+Target Vanguard I is a Solar System target (Vanguard I). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for Vanguard I. Skipping.
+Beginning queue check for target: [Booster]
+Target [Booster] has not yet been observed.
+Target [Booster] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [Booster]. Skipping.
+Beginning queue check for target: 1963-014G
+Target 1963-014G has not yet been observed.
+Target 1963-014G is a Solar System target (1963-014G). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for 1963-014G. Skipping.
+Beginning queue check for target: 1976-103G
+Target 1976-103G has not yet been observed.
+Target 1976-103G is a Solar System target (1976-103G). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for 1976-103G. Skipping.
+Beginning queue check for target: Solar antipoint
+Target Solar antipoint has not yet been observed.
+Target Solar antipoint is a Solar System target (Solar antipoint). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for Solar antipoint. Skipping.
+Beginning queue check for target: Iapetus
+Target Iapetus has not yet been observed.
+Target Iapetus is a Solar System target (Iapetus (SVIII)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Iapetus: 35.62 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Iapetus: 89.06 degrees
+Target Iapetus already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Titan
+Target Titan has not yet been observed.
+Target Titan is a Solar System target (Titan (606)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Titan: 35.70 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Titan: 89.14 degrees
+Target Titan already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Enceladus
+Target Enceladus has not yet been observed.
+Target Enceladus is a Solar System target (Enceladus (602)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Enceladus: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Enceladus: 89.16 degrees
+Target Enceladus already pushed earlier; skipping duplicate push.
+Reached queue length of 3. Proceeding with ODS push function.
+Queue fill incomplete: only 0/3 targets met criteria after scanning the remaining list.
+Target [ComSat] is a Solar System target. Generating ephemeris files.
+Querying Horizons for target [ComSat] (ID: 520) with name nan
+Generating ephemeris file for the ATA to use:
+Skipping target nan (ID: 520) because it is NaN.
+Error: Could not retrieve RA and DEC for [ComSat] (ID: 520). Skipping this target.
+Time since last LST reorder: 64s | Time until next reorder: 3536s
+
+==================== Top of the loop ====================
+Current time = 2026-02-12 22:21 UTC (Or 2026-02-12 14:21 local time)
+Current target: 3 - [AmRadSat]
+
+Beginning queue check for target: [AmRadSat]
+Target [AmRadSat] has not yet been observed.
+Target [AmRadSat] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [AmRadSat]. Skipping.
+Beginning queue check for target: [EarthObsSat]
+Target [EarthObsSat] has not yet been observed.
+Target [EarthObsSat] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [EarthObsSat]. Skipping.
+Beginning queue check for target: [WeatherSat]
+Target [WeatherSat] has not yet been observed.
+Target [WeatherSat] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [WeatherSat]. Skipping.
+Beginning queue check for target: LightSail 2
+Target LightSail 2 has not yet been observed.
+Target LightSail 2 is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for LightSail 2. Skipping.
+Beginning queue check for target: Vanguard I
+Target Vanguard I has not yet been observed.
+Target Vanguard I is a Solar System target (Vanguard I). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for Vanguard I. Skipping.
+Beginning queue check for target: [Booster]
+Target [Booster] has not yet been observed.
+Target [Booster] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [Booster]. Skipping.
+Beginning queue check for target: 1963-014G
+Target 1963-014G has not yet been observed.
+Target 1963-014G is a Solar System target (1963-014G). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for 1963-014G. Skipping.
+Beginning queue check for target: 1976-103G
+Target 1976-103G has not yet been observed.
+Target 1976-103G is a Solar System target (1976-103G). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for 1976-103G. Skipping.
+Beginning queue check for target: Solar antipoint
+Target Solar antipoint has not yet been observed.
+Target Solar antipoint is a Solar System target (Solar antipoint). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for Solar antipoint. Skipping.
+Beginning queue check for target: Iapetus
+Target Iapetus has not yet been observed.
+Target Iapetus is a Solar System target (Iapetus (SVIII)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Iapetus: 35.62 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Iapetus: 89.06 degrees
+Target Iapetus already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Titan
+Target Titan has not yet been observed.
+Target Titan is a Solar System target (Titan (606)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Titan: 35.70 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Titan: 89.14 degrees
+Target Titan already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Enceladus
+Target Enceladus has not yet been observed.
+Target Enceladus is a Solar System target (Enceladus (602)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Enceladus: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Enceladus: 89.16 degrees
+Target Enceladus already pushed earlier; skipping duplicate push.
+Reached queue length of 3. Proceeding with ODS push function.
+Queue fill incomplete: only 0/3 targets met criteria after scanning the remaining list.
+Target [AmRadSat] is a Solar System target. Generating ephemeris files.
+Querying Horizons for target [AmRadSat] (ID: 521) with name nan
+Generating ephemeris file for the ATA to use:
+Skipping target nan (ID: 521) because it is NaN.
+Error: Could not retrieve RA and DEC for [AmRadSat] (ID: 521). Skipping this target.
+Time since last LST reorder: 64s | Time until next reorder: 3536s
+
+==================== Top of the loop ====================
+Current time = 2026-02-12 22:21 UTC (Or 2026-02-12 14:21 local time)
+Current target: 4 - [EarthObsSat]
+
+Beginning queue check for target: [EarthObsSat]
+Target [EarthObsSat] has not yet been observed.
+Target [EarthObsSat] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [EarthObsSat]. Skipping.
+Beginning queue check for target: [WeatherSat]
+Target [WeatherSat] has not yet been observed.
+Target [WeatherSat] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [WeatherSat]. Skipping.
+Beginning queue check for target: LightSail 2
+Target LightSail 2 has not yet been observed.
+Target LightSail 2 is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for LightSail 2. Skipping.
+Beginning queue check for target: Vanguard I
+Target Vanguard I has not yet been observed.
+Target Vanguard I is a Solar System target (Vanguard I). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for Vanguard I. Skipping.
+Beginning queue check for target: [Booster]
+Target [Booster] has not yet been observed.
+Target [Booster] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [Booster]. Skipping.
+Beginning queue check for target: 1963-014G
+Target 1963-014G has not yet been observed.
+Target 1963-014G is a Solar System target (1963-014G). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for 1963-014G. Skipping.
+Beginning queue check for target: 1976-103G
+Target 1976-103G has not yet been observed.
+Target 1976-103G is a Solar System target (1976-103G). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for 1976-103G. Skipping.
+Beginning queue check for target: Solar antipoint
+Target Solar antipoint has not yet been observed.
+Target Solar antipoint is a Solar System target (Solar antipoint). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for Solar antipoint. Skipping.
+Beginning queue check for target: Iapetus
+Target Iapetus has not yet been observed.
+Target Iapetus is a Solar System target (Iapetus (SVIII)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Iapetus: 35.62 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Iapetus: 89.06 degrees
+Target Iapetus already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Titan
+Target Titan has not yet been observed.
+Target Titan is a Solar System target (Titan (606)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Titan: 35.70 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Titan: 89.14 degrees
+Target Titan already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Enceladus
+Target Enceladus has not yet been observed.
+Target Enceladus is a Solar System target (Enceladus (602)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Enceladus: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Enceladus: 89.16 degrees
+Target Enceladus already pushed earlier; skipping duplicate push.
+Reached queue length of 3. Proceeding with ODS push function.
+Queue fill incomplete: only 0/3 targets met criteria after scanning the remaining list.
+Target [EarthObsSat] is a Solar System target. Generating ephemeris files.
+Querying Horizons for target [EarthObsSat] (ID: 522) with name nan
+Generating ephemeris file for the ATA to use:
+Skipping target nan (ID: 522) because it is NaN.
+Error: Could not retrieve RA and DEC for [EarthObsSat] (ID: 522). Skipping this target.
+Time since last LST reorder: 65s | Time until next reorder: 3535s
+
+==================== Top of the loop ====================
+Current time = 2026-02-12 22:21 UTC (Or 2026-02-12 14:21 local time)
+Current target: 5 - [WeatherSat]
+
+Beginning queue check for target: [WeatherSat]
+Target [WeatherSat] has not yet been observed.
+Target [WeatherSat] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [WeatherSat]. Skipping.
+Beginning queue check for target: LightSail 2
+Target LightSail 2 has not yet been observed.
+Target LightSail 2 is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for LightSail 2. Skipping.
+Beginning queue check for target: Vanguard I
+Target Vanguard I has not yet been observed.
+Target Vanguard I is a Solar System target (Vanguard I). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for Vanguard I. Skipping.
+Beginning queue check for target: [Booster]
+Target [Booster] has not yet been observed.
+Target [Booster] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [Booster]. Skipping.
+Beginning queue check for target: 1963-014G
+Target 1963-014G has not yet been observed.
+Target 1963-014G is a Solar System target (1963-014G). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for 1963-014G. Skipping.
+Beginning queue check for target: 1976-103G
+Target 1976-103G has not yet been observed.
+Target 1976-103G is a Solar System target (1976-103G). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for 1976-103G. Skipping.
+Beginning queue check for target: Solar antipoint
+Target Solar antipoint has not yet been observed.
+Target Solar antipoint is a Solar System target (Solar antipoint). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for Solar antipoint. Skipping.
+Beginning queue check for target: Iapetus
+Target Iapetus has not yet been observed.
+Target Iapetus is a Solar System target (Iapetus (SVIII)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Iapetus: 35.62 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Iapetus: 89.06 degrees
+Target Iapetus already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Titan
+Target Titan has not yet been observed.
+Target Titan is a Solar System target (Titan (606)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Titan: 35.70 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Titan: 89.14 degrees
+Target Titan already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Enceladus
+Target Enceladus has not yet been observed.
+Target Enceladus is a Solar System target (Enceladus (602)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Enceladus: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Enceladus: 89.16 degrees
+Target Enceladus already pushed earlier; skipping duplicate push.
+Reached queue length of 3. Proceeding with ODS push function.
+Queue fill incomplete: only 0/3 targets met criteria after scanning the remaining list.
+Target [WeatherSat] is a Solar System target. Generating ephemeris files.
+Querying Horizons for target [WeatherSat] (ID: 523) with name nan
+Generating ephemeris file for the ATA to use:
+Skipping target nan (ID: 523) because it is NaN.
+Error: Could not retrieve RA and DEC for [WeatherSat] (ID: 523). Skipping this target.
+Time since last LST reorder: 65s | Time until next reorder: 3535s
+
+==================== Top of the loop ====================
+Current time = 2026-02-12 22:21 UTC (Or 2026-02-12 14:21 local time)
+Current target: 6 - LightSail 2
+
+Beginning queue check for target: LightSail 2
+Target LightSail 2 has not yet been observed.
+Target LightSail 2 is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for LightSail 2. Skipping.
+Beginning queue check for target: Vanguard I
+Target Vanguard I has not yet been observed.
+Target Vanguard I is a Solar System target (Vanguard I). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for Vanguard I. Skipping.
+Beginning queue check for target: [Booster]
+Target [Booster] has not yet been observed.
+Target [Booster] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [Booster]. Skipping.
+Beginning queue check for target: 1963-014G
+Target 1963-014G has not yet been observed.
+Target 1963-014G is a Solar System target (1963-014G). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for 1963-014G. Skipping.
+Beginning queue check for target: 1976-103G
+Target 1976-103G has not yet been observed.
+Target 1976-103G is a Solar System target (1976-103G). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for 1976-103G. Skipping.
+Beginning queue check for target: Solar antipoint
+Target Solar antipoint has not yet been observed.
+Target Solar antipoint is a Solar System target (Solar antipoint). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for Solar antipoint. Skipping.
+Beginning queue check for target: Iapetus
+Target Iapetus has not yet been observed.
+Target Iapetus is a Solar System target (Iapetus (SVIII)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Iapetus: 35.62 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Iapetus: 89.06 degrees
+Target Iapetus already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Titan
+Target Titan has not yet been observed.
+Target Titan is a Solar System target (Titan (606)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Titan: 35.70 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Titan: 89.14 degrees
+Target Titan already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Enceladus
+Target Enceladus has not yet been observed.
+Target Enceladus is a Solar System target (Enceladus (602)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Enceladus: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Enceladus: 89.16 degrees
+Target Enceladus already pushed earlier; skipping duplicate push.
+Reached queue length of 3. Proceeding with ODS push function.
+Queue fill incomplete: only 0/3 targets met criteria after scanning the remaining list.
+Target LightSail 2 is a Solar System target. Generating ephemeris files.
+Querying Horizons for target LightSail 2 (ID: 526) with name nan
+Generating ephemeris file for the ATA to use:
+Skipping target nan (ID: 526) because it is NaN.
+Error: Could not retrieve RA and DEC for LightSail 2 (ID: 526). Skipping this target.
+Time since last LST reorder: 65s | Time until next reorder: 3535s
+
+==================== Top of the loop ====================
+Current time = 2026-02-12 22:21 UTC (Or 2026-02-12 14:21 local time)
+Current target: 7 - Vanguard I
+
+Beginning queue check for target: Vanguard I
+Target Vanguard I has not yet been observed.
+Target Vanguard I is a Solar System target (Vanguard I). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for Vanguard I. Skipping.
+Beginning queue check for target: [Booster]
+Target [Booster] has not yet been observed.
+Target [Booster] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [Booster]. Skipping.
+Beginning queue check for target: 1963-014G
+Target 1963-014G has not yet been observed.
+Target 1963-014G is a Solar System target (1963-014G). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for 1963-014G. Skipping.
+Beginning queue check for target: 1976-103G
+Target 1976-103G has not yet been observed.
+Target 1976-103G is a Solar System target (1976-103G). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for 1976-103G. Skipping.
+Beginning queue check for target: Solar antipoint
+Target Solar antipoint has not yet been observed.
+Target Solar antipoint is a Solar System target (Solar antipoint). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for Solar antipoint. Skipping.
+Beginning queue check for target: Iapetus
+Target Iapetus has not yet been observed.
+Target Iapetus is a Solar System target (Iapetus (SVIII)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Iapetus: 35.62 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Iapetus: 89.06 degrees
+Target Iapetus already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Titan
+Target Titan has not yet been observed.
+Target Titan is a Solar System target (Titan (606)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Titan: 35.70 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Titan: 89.14 degrees
+Target Titan already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Enceladus
+Target Enceladus has not yet been observed.
+Target Enceladus is a Solar System target (Enceladus (602)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Enceladus: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Enceladus: 89.16 degrees
+Target Enceladus already pushed earlier; skipping duplicate push.
+Reached queue length of 3. Proceeding with ODS push function.
+Queue fill incomplete: only 0/3 targets met criteria after scanning the remaining list.
+Target Vanguard I is a Solar System target. Generating ephemeris files.
+Querying Horizons for target Vanguard I (ID: 528) with name Vanguard I
+Generating ephemeris file for the ATA to use:
+Processing target: Vanguard I | ID: 528
+DEBUG: Ephemeris query parameters - start: 2026-02-12 22:21, stop: 2026-02-12 23:21, step: 1m
+Got the value error, trying again...
+Retrying with alternative step format...
+Retry also failed: Unknown target (Vanguard I). Maybe try different id_type?
+Skipping target Vanguard I (ID: 528) because ephemeris is empty.
+Error: Could not retrieve RA and DEC for Vanguard I (ID: 528). Skipping this target.
+Time since last LST reorder: 76s | Time until next reorder: 3524s
+
+==================== Top of the loop ====================
+Current time = 2026-02-12 22:21 UTC (Or 2026-02-12 14:21 local time)
+Current target: 8 - [Booster]
+
+Beginning queue check for target: [Booster]
+Target [Booster] has not yet been observed.
+Target [Booster] is a Solar System target (nan). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for [Booster]. Skipping.
+Beginning queue check for target: 1963-014G
+Target 1963-014G has not yet been observed.
+Target 1963-014G is a Solar System target (1963-014G). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for 1963-014G. Skipping.
+Beginning queue check for target: 1976-103G
+Target 1976-103G has not yet been observed.
+Target 1976-103G is a Solar System target (1976-103G). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for 1976-103G. Skipping.
+Beginning queue check for target: Solar antipoint
+Target Solar antipoint has not yet been observed.
+Target Solar antipoint is a Solar System target (Solar antipoint). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for Solar antipoint. Skipping.
+Beginning queue check for target: Iapetus
+Target Iapetus has not yet been observed.
+Target Iapetus is a Solar System target (Iapetus (SVIII)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Iapetus: 35.62 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Iapetus: 89.06 degrees
+Target Iapetus already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Titan
+Target Titan has not yet been observed.
+Target Titan is a Solar System target (Titan (606)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Titan: 35.70 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Titan: 89.14 degrees
+Target Titan already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Enceladus
+Target Enceladus has not yet been observed.
+Target Enceladus is a Solar System target (Enceladus (602)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Enceladus: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Enceladus: 89.16 degrees
+Target Enceladus already pushed earlier; skipping duplicate push.
+Reached queue length of 3. Proceeding with ODS push function.
+Queue fill incomplete: only 0/3 targets met criteria after scanning the remaining list.
+Target [Booster] is a Solar System target. Generating ephemeris files.
+Querying Horizons for target [Booster] (ID: 529) with name nan
+Generating ephemeris file for the ATA to use:
+Skipping target nan (ID: 529) because it is NaN.
+Error: Could not retrieve RA and DEC for [Booster] (ID: 529). Skipping this target.
+Time since last LST reorder: 77s | Time until next reorder: 3523s
+
+==================== Top of the loop ====================
+Current time = 2026-02-12 22:21 UTC (Or 2026-02-12 14:21 local time)
+Current target: 9 - 1963-014G
+
+Beginning queue check for target: 1963-014G
+Target 1963-014G has not yet been observed.
+Target 1963-014G is a Solar System target (1963-014G). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for 1963-014G. Skipping.
+Beginning queue check for target: 1976-103G
+Target 1976-103G has not yet been observed.
+Target 1976-103G is a Solar System target (1976-103G). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for 1976-103G. Skipping.
+Beginning queue check for target: Solar antipoint
+Target Solar antipoint has not yet been observed.
+Target Solar antipoint is a Solar System target (Solar antipoint). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for Solar antipoint. Skipping.
+Beginning queue check for target: Iapetus
+Target Iapetus has not yet been observed.
+Target Iapetus is a Solar System target (Iapetus (SVIII)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Iapetus: 35.62 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Iapetus: 89.06 degrees
+Target Iapetus already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Titan
+Target Titan has not yet been observed.
+Target Titan is a Solar System target (Titan (606)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Titan: 35.70 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Titan: 89.14 degrees
+Target Titan already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Enceladus
+Target Enceladus has not yet been observed.
+Target Enceladus is a Solar System target (Enceladus (602)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Enceladus: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Enceladus: 89.16 degrees
+Target Enceladus already pushed earlier; skipping duplicate push.
+Reached queue length of 3. Proceeding with ODS push function.
+Queue fill incomplete: only 0/3 targets met criteria after scanning the remaining list.
+Target 1963-014G is a Solar System target. Generating ephemeris files.
+Querying Horizons for target 1963-014G (ID: 530) with name 1963-014G
+Generating ephemeris file for the ATA to use:
+Processing target: 1963-014G | ID: 530
+DEBUG: Ephemeris query parameters - start: 2026-02-12 22:21, stop: 2026-02-12 23:21, step: 1m
+Got the value error, trying again...
+Retrying with alternative step format...
+Retry also failed: Unknown target (1963-014G). Maybe try different id_type?
+Skipping target 1963-014G (ID: 530) because ephemeris is empty.
+Error: Could not retrieve RA and DEC for 1963-014G (ID: 530). Skipping this target.
+Time since last LST reorder: 88s | Time until next reorder: 3512s
+
+==================== Top of the loop ====================
+Current time = 2026-02-12 22:21 UTC (Or 2026-02-12 14:21 local time)
+Current target: 10 - 1976-103G
+
+Beginning queue check for target: 1976-103G
+Target 1976-103G has not yet been observed.
+Target 1976-103G is a Solar System target (1976-103G). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for 1976-103G. Skipping.
+Beginning queue check for target: Solar antipoint
+Target Solar antipoint has not yet been observed.
+Target Solar antipoint is a Solar System target (Solar antipoint). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for Solar antipoint. Skipping.
+Beginning queue check for target: Iapetus
+Target Iapetus has not yet been observed.
+Target Iapetus is a Solar System target (Iapetus (SVIII)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Iapetus: 35.62 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Iapetus: 89.06 degrees
+Target Iapetus already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Titan
+Target Titan has not yet been observed.
+Target Titan is a Solar System target (Titan (606)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Titan: 35.70 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Titan: 89.14 degrees
+Target Titan already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Enceladus
+Target Enceladus has not yet been observed.
+Target Enceladus is a Solar System target (Enceladus (602)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Enceladus: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Enceladus: 89.16 degrees
+Target Enceladus already pushed earlier; skipping duplicate push.
+Reached queue length of 3. Proceeding with ODS push function.
+Queue fill incomplete: only 0/3 targets met criteria after scanning the remaining list.
+Target 1976-103G is a Solar System target. Generating ephemeris files.
+Querying Horizons for target 1976-103G (ID: 531) with name 1976-103G
+Generating ephemeris file for the ATA to use:
+Processing target: 1976-103G | ID: 531
+DEBUG: Ephemeris query parameters - start: 2026-02-12 22:21, stop: 2026-02-12 23:21, step: 1m
+Got the value error, trying again...
+Retrying with alternative step format...
+Retry also failed: Unknown target (1976-103G). Maybe try different id_type?
+Skipping target 1976-103G (ID: 531) because ephemeris is empty.
+Error: Could not retrieve RA and DEC for 1976-103G (ID: 531). Skipping this target.
+Time since last LST reorder: 99s | Time until next reorder: 3501s
+
+==================== Top of the loop ====================
+Current time = 2026-02-12 22:21 UTC (Or 2026-02-12 14:21 local time)
+Current target: 11 - Solar antipoint
+
+Beginning queue check for target: Solar antipoint
+Target Solar antipoint has not yet been observed.
+Target Solar antipoint is a Solar System target (Solar antipoint). Querying Horizons for RA/DEC.
+Could not determine RA/DEC for Solar antipoint. Skipping.
+Beginning queue check for target: Iapetus
+Target Iapetus has not yet been observed.
+Target Iapetus is a Solar System target (Iapetus (SVIII)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Iapetus: 35.62 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Iapetus: 89.06 degrees
+Target Iapetus already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Titan
+Target Titan has not yet been observed.
+Target Titan is a Solar System target (Titan (606)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Titan: 35.70 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Titan: 89.14 degrees
+Target Titan already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Enceladus
+Target Enceladus has not yet been observed.
+Target Enceladus is a Solar System target (Enceladus (602)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Enceladus: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Enceladus: 89.16 degrees
+Target Enceladus already pushed earlier; skipping duplicate push.
+Reached queue length of 3. Proceeding with ODS push function.
+Queue fill incomplete: only 0/3 targets met criteria after scanning the remaining list.
+Target Solar antipoint is a Solar System target. Generating ephemeris files.
+Querying Horizons for target Solar antipoint (ID: 533) with name Solar antipoint
+Generating ephemeris file for the ATA to use:
+Processing target: Solar antipoint | ID: 533
+DEBUG: Ephemeris query parameters - start: 2026-02-12 22:21, stop: 2026-02-12 23:21, step: 1m
+Got the value error, trying again...
+Retrying with alternative step format...
+Retry also failed: Unknown target (Solar antipoint). Maybe try different id_type?
+Skipping target Solar antipoint (ID: 533) because ephemeris is empty.
+Error: Could not retrieve RA and DEC for Solar antipoint (ID: 533). Skipping this target.
+Time since last LST reorder: 110s | Time until next reorder: 3490s
+
+==================== Top of the loop ====================
+Current time = 2026-02-12 22:21 UTC (Or 2026-02-12 14:21 local time)
+Current target: 12 - Iapetus
+
+Beginning queue check for target: Iapetus
+Target Iapetus has not yet been observed.
+Target Iapetus is a Solar System target (Iapetus (SVIII)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Iapetus: 35.62 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Iapetus: 89.06 degrees
+Target Iapetus already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Titan
+Target Titan has not yet been observed.
+Target Titan is a Solar System target (Titan (606)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Titan: 35.70 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Titan: 89.14 degrees
+Target Titan already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Enceladus
+Target Enceladus has not yet been observed.
+Target Enceladus is a Solar System target (Enceladus (602)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Enceladus: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Enceladus: 89.16 degrees
+Target Enceladus already pushed earlier; skipping duplicate push.
+Reached queue length of 3. Proceeding with ODS push function.
+Queue fill incomplete: only 0/3 targets met criteria after scanning the remaining list.
+Target Iapetus is a Solar System target. Generating ephemeris files.
+Querying Horizons for target Iapetus (ID: 547) with name SVIII
+Generating ephemeris file for the ATA to use:
+Processing target: SVIII | ID: 547
+DEBUG: Ephemeris query parameters - start: 2026-02-12 22:21, stop: 2026-02-12 23:21, step: 1m
+Successfully generated ephemeris for target SVIII
+/mnt_home/vlopez/BL_ATA_Alerts/.venv/lib/python3.12/site-packages/numpy/ma/core.py:509: RuntimeWarning: invalid value encountered in cast
+  fill_value = np.asarray(fill_value, dtype=ndtype)
+
+Ephemeris generated for 2026-02-12 22:21 to 2026-02-12 23:21.
+Target ID: 547, Target name: SVIII
+Saved Ephemeris as survey_ephemerides/JPLH_SVIII.ephem
+Ephemeris files for Iapetus (Queried with SVIII) generated successfully.
+Current Altitude: 46.984618334939654 degrees
+Altitude is within bounds, tracking source Iapetus
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Iapetus: 35.62 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Iapetus: 89.06 degrees
+Testing mode active, skipping actual tracking function.
+Target is within the solar system, would be tracking using Horizons Ephemeris.
+Recording disabled. This will not record and will not mark as observed.
+This is where observation would have taken place.
+Observation cycle is complete for Iapetus. If you'd like to end this session, please do so now.
+00:30 remaining00:29 remaining00:28 remaining00:27 remaining00:26 remaining00:25 remaining00:24 remaining00:23 remaining00:22 remaining00:21 remaining00:20 remaining00:19 remaining00:18 remaining00:17 remaining00:16 remaining00:15 remaining00:14 remaining00:13 remaining00:12 remaining00:11 remaining00:10 remaining00:09 remaining00:08 remaining00:07 remaining00:06 remaining00:05 remaining00:04 remaining00:03 remaining00:02 remaining00:01 remainingWaited 30 seconds
+Time since last LST reorder: 144s | Time until next reorder: 3456s
+Target Iapetus already observed in this run. Skipping.
+Time since last LST reorder: 144s | Time until next reorder: 3456s
+
+==================== Top of the loop ====================
+Current time = 2026-02-12 22:22 UTC (Or 2026-02-12 14:22 local time)
+Current target: 13 - Titan
+
+Beginning queue check for target: Titan
+Target Titan has not yet been observed.
+Target Titan is a Solar System target (Titan (606)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Titan: 35.70 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Titan: 89.13 degrees
+Target Titan already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Enceladus
+Target Enceladus has not yet been observed.
+Target Enceladus is a Solar System target (Enceladus (602)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Enceladus: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Enceladus: 89.15 degrees
+Target Enceladus already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Mimas
+Target Mimas has not yet been observed.
+Target Mimas is a Solar System target (Mimas (601)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Mimas: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Mimas: 89.16 degrees
+Target Mimas added to queue (new push).
+Reached queue length of 3. Proceeding with ODS push function.
+Queue fill incomplete: only 1/3 targets met criteria after scanning the remaining list.
+Pushing 1 queued target(s) to ODS...
+Queued targets are: ['Mimas']
+Testing mode: would have pushed Mimas at coords (0.4103 RA, -2.16435 Dec) to ODS from 2026-02-12T22:36:06.945330+00:00 to 2026-02-12T22:39:06.945330+00:00
+Pushed Mimas to ODS queue
+All queued targets pushed to ODS. Beginning actual observations
+Target Titan is a Solar System target. Generating ephemeris files.
+Querying Horizons for target Titan (ID: 102) with name 606
+Generating ephemeris file for the ATA to use:
+Processing target: 606 | ID: 102
+DEBUG: Ephemeris query parameters - start: 2026-02-12 22:22, stop: 2026-02-12 23:22, step: 1m
+Successfully generated ephemeris for target 606
+/mnt_home/vlopez/BL_ATA_Alerts/.venv/lib/python3.12/site-packages/numpy/ma/core.py:509: RuntimeWarning: invalid value encountered in cast
+  fill_value = np.asarray(fill_value, dtype=ndtype)
+
+Ephemeris generated for 2026-02-12 22:22 to 2026-02-12 23:22.
+Target ID: 102, Target name: 606
+Saved Ephemeris as survey_ephemerides/JPLH_606.ephem
+Ephemeris files for Titan (Queried with 606) generated successfully.
+Current Altitude: 47.032446775266024 degrees
+Altitude is within bounds, tracking source Titan
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Titan: 35.70 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Titan: 89.13 degrees
+Testing mode active, skipping actual tracking function.
+Target is within the solar system, would be tracking using Horizons Ephemeris.
+Recording disabled. This will not record and will not mark as observed.
+This is where observation would have taken place.
+Observation cycle is complete for Titan. If you'd like to end this session, please do so now.
+00:30 remaining00:29 remaining00:28 remaining00:27 remaining00:26 remaining00:25 remaining00:24 remaining00:23 remaining00:22 remaining00:21 remaining00:20 remaining00:19 remaining00:18 remaining00:17 remaining00:16 remaining00:15 remaining00:14 remaining00:13 remaining00:12 remaining00:11 remaining00:10 remaining00:09 remaining00:08 remaining00:07 remaining00:06 remaining00:05 remaining00:04 remaining00:03 remaining00:02 remaining00:01 remainingWaited 30 seconds
+Time since last LST reorder: 177s | Time until next reorder: 3423s
+Target Titan already observed in this run. Skipping.
+Time since last LST reorder: 177s | Time until next reorder: 3423s
+
+==================== Top of the loop ====================
+Current time = 2026-02-12 22:23 UTC (Or 2026-02-12 14:23 local time)
+Current target: 14 - Enceladus
+
+Beginning queue check for target: Enceladus
+Target Enceladus has not yet been observed.
+Target Enceladus is a Solar System target (Enceladus (602)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Enceladus: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Enceladus: 89.15 degrees
+Target Enceladus already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Mimas
+Target Mimas has not yet been observed.
+Target Mimas is a Solar System target (Mimas (601)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Mimas: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Mimas: 89.15 degrees
+Target Mimas already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Prometheus
+Target Prometheus has not yet been observed.
+Target Prometheus is a Solar System target (Prometheus (616)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Prometheus: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Prometheus: 89.15 degrees
+Target Prometheus added to queue (new push).
+Reached queue length of 3. Proceeding with ODS push function.
+Queue fill incomplete: only 1/3 targets met criteria after scanning the remaining list.
+Pushing 1 queued target(s) to ODS...
+Queued targets are: ['Prometheus']
+Testing mode: would have pushed Prometheus at coords (0.41066 RA, -2.16398 Dec) to ODS from 2026-02-12T22:37:06.945330+00:00 to 2026-02-12T22:40:06.945330+00:00
+Pushed Prometheus to ODS queue
+All queued targets pushed to ODS. Beginning actual observations
+Target Enceladus is a Solar System target. Generating ephemeris files.
+Querying Horizons for target Enceladus (ID: 107) with name 602
+Generating ephemeris file for the ATA to use:
+Processing target: 602 | ID: 107
+DEBUG: Ephemeris query parameters - start: 2026-02-12 22:23, stop: 2026-02-12 23:23, step: 1m
+Successfully generated ephemeris for target 602
+/mnt_home/vlopez/BL_ATA_Alerts/.venv/lib/python3.12/site-packages/numpy/ma/core.py:509: RuntimeWarning: invalid value encountered in cast
+  fill_value = np.asarray(fill_value, dtype=ndtype)
+
+Ephemeris generated for 2026-02-12 22:23 to 2026-02-12 23:23.
+Target ID: 107, Target name: 602
+Saved Ephemeris as survey_ephemerides/JPLH_602.ephem
+Ephemeris files for Enceladus (Queried with 602) generated successfully.
+Current Altitude: 47.04486981551256 degrees
+Altitude is within bounds, tracking source Enceladus
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Enceladus: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Enceladus: 89.15 degrees
+Testing mode active, skipping actual tracking function.
+Target is within the solar system, would be tracking using Horizons Ephemeris.
+Recording disabled. This will not record and will not mark as observed.
+This is where observation would have taken place.
+Observation cycle is complete for Enceladus. If you'd like to end this session, please do so now.
+00:30 remaining00:29 remaining00:28 remaining00:27 remaining00:26 remaining00:25 remaining00:24 remaining00:23 remaining00:22 remaining00:21 remaining00:20 remaining00:19 remaining00:18 remaining00:17 remaining00:16 remaining00:15 remaining00:14 remaining00:13 remaining00:12 remaining00:11 remaining00:10 remaining00:09 remaining00:08 remaining00:07 remaining00:06 remaining00:05 remaining00:04 remaining00:03 remaining00:02 remaining00:01 remainingWaited 30 seconds
+Time since last LST reorder: 209s | Time until next reorder: 3391s
+Target Enceladus already observed in this run. Skipping.
+Time since last LST reorder: 209s | Time until next reorder: 3391s
+
+==================== Top of the loop ====================
+Current time = 2026-02-12 22:23 UTC (Or 2026-02-12 14:23 local time)
+Current target: 15 - Mimas
+
+Beginning queue check for target: Mimas
+Target Mimas has not yet been observed.
+Target Mimas is a Solar System target (Mimas (601)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Mimas: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Mimas: 89.15 degrees
+Target Mimas already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Prometheus
+Target Prometheus has not yet been observed.
+Target Prometheus is a Solar System target (Prometheus (616)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Prometheus: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Prometheus: 89.15 degrees
+Target Prometheus already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Hyperion
+Target Hyperion has not yet been observed.
+Target Hyperion is a Solar System target (Hyperion (607)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Hyperion: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Hyperion: 89.15 degrees
+Target Hyperion added to queue (new push).
+Reached queue length of 3. Proceeding with ODS push function.
+Queue fill incomplete: only 1/3 targets met criteria after scanning the remaining list.
+Pushing 1 queued target(s) to ODS...
+Queued targets are: ['Hyperion']
+Testing mode: would have pushed Hyperion at coords (0.41176 RA, -2.16183 Dec) to ODS from 2026-02-12T22:38:06.945330+00:00 to 2026-02-12T22:41:06.945330+00:00
+Pushed Hyperion to ODS queue
+All queued targets pushed to ODS. Beginning actual observations
+Target Mimas is a Solar System target. Generating ephemeris files.
+Querying Horizons for target Mimas (ID: 546) with name 601
+Generating ephemeris file for the ATA to use:
+Processing target: 601 | ID: 546
+DEBUG: Ephemeris query parameters - start: 2026-02-12 22:23, stop: 2026-02-12 23:23, step: 1m
+Successfully generated ephemeris for target 601
+/mnt_home/vlopez/BL_ATA_Alerts/.venv/lib/python3.12/site-packages/numpy/ma/core.py:509: RuntimeWarning: invalid value encountered in cast
+  fill_value = np.asarray(fill_value, dtype=ndtype)
+
+Ephemeris generated for 2026-02-12 22:23 to 2026-02-12 23:23.
+Target ID: 546, Target name: 601
+Saved Ephemeris as survey_ephemerides/JPLH_601.ephem
+Ephemeris files for Mimas (Queried with 601) generated successfully.
+Current Altitude: 47.044288018672866 degrees
+Altitude is within bounds, tracking source Mimas
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Mimas: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Mimas: 89.15 degrees
+Testing mode active, skipping actual tracking function.
+Target is within the solar system, would be tracking using Horizons Ephemeris.
+Recording disabled. This will not record and will not mark as observed.
+This is where observation would have taken place.
+Observation cycle is complete for Mimas. If you'd like to end this session, please do so now.
+00:30 remaining00:29 remaining00:28 remaining00:27 remaining00:26 remaining00:25 remaining00:24 remaining00:23 remaining00:22 remaining00:21 remaining00:20 remaining00:19 remaining00:18 remaining00:17 remaining00:16 remaining00:15 remaining00:14 remaining00:13 remaining00:12 remaining00:11 remaining00:10 remaining00:09 remaining00:08 remaining00:07 remaining00:06 remaining00:05 remaining00:04 remaining00:03 remaining00:02 remaining00:01 remainingWaited 30 seconds
+Time since last LST reorder: 241s | Time until next reorder: 3359s
+Target Mimas already observed in this run. Skipping.
+Time since last LST reorder: 241s | Time until next reorder: 3359s
+
+==================== Top of the loop ====================
+Current time = 2026-02-12 22:24 UTC (Or 2026-02-12 14:24 local time)
+Current target: 16 - Prometheus
+
+Beginning queue check for target: Prometheus
+Target Prometheus has not yet been observed.
+Target Prometheus is a Solar System target (Prometheus (616)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Prometheus: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Prometheus: 89.14 degrees
+Target Prometheus already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Hyperion
+Target Hyperion has not yet been observed.
+Target Hyperion is a Solar System target (Hyperion (607)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Hyperion: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Hyperion: 89.14 degrees
+Target Hyperion already pushed earlier; skipping duplicate push.
+Beginning queue check for target: Saturn
+Target Saturn has not yet been observed.
+Target Saturn is a Solar System target (Saturn (699)). Querying Horizons for RA/DEC.
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Saturn: 35.73 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Saturn: 89.14 degrees
+Target Saturn added to queue (new push).
+Reached queue length of 3. Proceeding with ODS push function.
+Queue fill incomplete: only 1/3 targets met criteria after scanning the remaining list.
+Pushing 1 queued target(s) to ODS...
+Queued targets are: ['Saturn']
+Testing mode: would have pushed Saturn at coords (0.41543 RA, -2.16439 Dec) to ODS from 2026-02-12T22:39:06.945330+00:00 to 2026-02-12T22:42:06.945330+00:00
+Pushed Saturn to ODS queue
+All queued targets pushed to ODS. Beginning actual observations
+Target Prometheus is a Solar System target. Generating ephemeris files.
+Querying Horizons for target Prometheus (ID: 61) with name 616
+Generating ephemeris file for the ATA to use:
+Processing target: 616 | ID: 61
+DEBUG: Ephemeris query parameters - start: 2026-02-12 22:24, stop: 2026-02-12 23:24, step: 1m
+Successfully generated ephemeris for target 616
+/mnt_home/vlopez/BL_ATA_Alerts/.venv/lib/python3.12/site-packages/numpy/ma/core.py:509: RuntimeWarning: invalid value encountered in cast
+  fill_value = np.asarray(fill_value, dtype=ndtype)
+
+Ephemeris generated for 2026-02-12 22:24 to 2026-02-12 23:24.
+Target ID: 61, Target name: 616
+Saved Ephemeris as survey_ephemerides/JPLH_616.ephem
+Ephemeris files for Prometheus (Queried with 616) generated successfully.
+Current Altitude: 47.06096352047691 degrees
+Altitude is within bounds, tracking source Prometheus
+Testing mode: Sun position queried from JPL Horizons.
+Current separation from Sun for target Prometheus: 35.72 degrees
+Testing mode: Moon position queried from JPL Horizons.
+Current separation from Moon for target Prometheus: 89.14 degrees
+Testing mode active, skipping actual tracking function.
+Target is within the solar system, would be tracking using Horizons Ephemeris.
+Recording disabled. This will not record and will not mark as observed.
+This is where observation would have taken place.
+Observation cycle is complete for Prometheus. If you'd like to end this session, please do so now.
+00:30 remaining00:29 remaining00:28 remaining00:27 remaining00:26 remaining00:25 remaining00:24 remaining00:23 remaining00:22 remaining00:21 remaining00:20 remaining00:19 remaining00:18 remaining00:17 remaining00:16 remaining00:15 remaining00:14 remaining00:13 remainingTraceback (most recent call last):
+  File "/mnt_home/vlopez/BL_ATA_Alerts/Blayne/Survey Code/observe_survey.py", line 859, in <module>
+    main()
+  File "/mnt_home/vlopez/BL_ATA_Alerts/Blayne/Survey Code/observe_survey.py", line 847, in main
+    sleep_with_continuous_updates_seconds(30)
+  File "/mnt_home/vlopez/BL_ATA_Alerts/Blayne/Survey Code/survey_utils.py", line 349, in sleep_with_continuous_updates_seconds
+    time.sleep(1)
+KeyboardInterrupt
